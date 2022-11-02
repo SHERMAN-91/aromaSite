@@ -1,0 +1,138 @@
+::before,
+::after,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --boxBackground: #A3DD88;
+
+}
+
+.container {
+    width: 90vw;
+    margin: auto;
+}
+
+/* margin */
+.mar10 {
+    margin: 10px;
+}
+
+/* padding */
+.pad50 {
+    padding: 5px 0;
+}
+
+.pad10 {
+    padding: 10px;
+}
+
+.pad20 {
+    padding: 20px;
+}
+
+.padT10 {
+    padding-top: 10px;
+}
+
+.padL10 {
+    padding-left: 10px;
+}
+
+.padB10 {
+    padding-bottom: 10px;
+}
+
+.padT10 {
+    padding-right: 10px;
+}
+
+/* flex */
+.flex {
+    display: flex;
+}
+
+/* grid */
+.grid {
+    display: grid;
+}
+
+._cc {
+    justify-content: center;
+    align-items: center;
+}
+
+._spBeC {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gap10 {
+    gap: 10px;
+}
+
+/* ul */
+ul {
+    list-style: none;
+}
+
+/* a */
+a {
+    text-decoration: none;
+    display: block;
+}
+
+/* transition */
+.tras03s {
+    transition: .3s;
+}
+
+/* position */
+.rela {
+    position: relative;
+}
+
+.abso {
+    position: absolute !important;
+}
+
+/* sides */
+.centerTop {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.centerLeft {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* text */
+.txtC {
+    text-align: center;
+}
+
+/* color */
+.Cwhite {
+    color: white
+}
+
+/* background */
+.backC {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+/* font */
+.fsize20 {
+    font-size: 20px;
+}
+
+/* border */
+.bor2 {
+    border: 2px solid;
+}
