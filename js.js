@@ -117,20 +117,23 @@ function scrollThis() {
         }
     }
 }
+
 $(".showMenu").click(function () {
     $(".listMenue  ul").fadeToggle()
 })
+
 function win700() {
     if (window.innerWidth <= 700) {
         $(".listMenue  ul").addClass("win700");
-        $(".showMenu ~  ul").css("display", "block");
-        $(".showMenu ~  ul").fadeOut()
-
+        $(".showMenu ~  ul").css("display", "none");
+        $(".full").fadeOut();
 
     }
     else {
         $(".showMenu ~  ul").css("display", "flex");
         $(".listMenue  ul").removeClass("win700")
+        $(".full").fadeIn();
+
     }
 }
 win700()
